@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "resourcegens:block/tier1crusher"
+    }
+  }
+}

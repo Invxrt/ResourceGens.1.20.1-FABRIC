@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "resourcegens:tier1core"
+    }
+  ],
+  "result": {
+    "item": "resourcegens:tier1shard",
+    "count": 16
+  }
+}

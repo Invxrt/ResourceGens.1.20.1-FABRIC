@@ -1,0 +1,8 @@
+{
+  "item.resourcegens.tier1core": "Tier 1 Core",
+  "item.resourcegens.tier1shard": "Tier 1 Shard",
+
+  "block.resourcegens.tier1crusher": "Tier 1 Crusher",
+
+  "itemgroup.resourcegens": "Resource Generators"
+}

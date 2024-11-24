@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "resource-gens",
+	"version": "${version}",
+	"name": "Resource Generators",
+	"description": "A mod made to replicate the Resource Generators from the modpack: EMC: To The Sky!",
+	"authors": [
+		"Invxrt"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/resource-gens/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.invxrt.resourcegens.ResourceGens"
+		],
+		"client": [
+			"net.invxrt.resourcegens.ResourceGensClient"
+		],
+		"fabric-datagen": [
+			"net.invxrt.resourcegens.ResourceGensDataGenerator"
+		]
+	},
+	"mixins": [
+		"resource-gens.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
